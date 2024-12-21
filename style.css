@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  color: #333;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
+  transition: background-color 0.3s ease-in-out;
+  text-decoration-line: underline;
+  padding: 1%;
+  border-radius: 6px;
+  margin-bottom: 4%;
+}
+
+#editable-resume {
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: bisque;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.82);
+}
+
+fieldset {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #cedf9f;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input,
+textarea {
+  margin-top: 4px;
+  padding: 10px;
+  width: calc(100% - 1px);
+  border: 2px solid #a1d6b2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+button {
+  width: 100%;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  border: 1px solid #a1d6b2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a1d6b2;
+}
+
+#resume-display {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid skyblue;
+  border-radius: 8px;
+  background-color: bisque;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 130%;
+}
+
+#resume-display p {
+  display: flex;
+  text-align: center;
+}
+
+#shareable-resume{
+  max-width: 100vh;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
